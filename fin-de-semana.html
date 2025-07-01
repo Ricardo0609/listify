@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Fin de semana</title>
+    <link rel="icon" href="imagenes/Logo-Obscuro.png">
+    <!--PLAY-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+
+    <!--GOTHIC A1-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+</head>
+<!--Header-->
+<header id="header">
+    <a href="index.html">
+        <img src="imagenes/logorect.png" alt="" class="logo">
+    </a>
+
+    
+
+    <div id="menuO" class="menu-container">
+        <!-- Ícono del menú de hamburguesa -->
+        <svg id="hamburguesa" onclick="toggleMenu()" xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960"
+            width="40px" fill="#252525" class="menu-icon">
+            <path d="M120-240v-66.67h720V-240H120Zm0-206.67v-66.66h720v66.66H120Zm0-206.66V-720h720v66.67H120Z" />
+        </svg>
+
+        <!-- Overlay oscuro -->
+        <div class="menu-overlay"></div>
+
+        <!-- Contenido del menú desplegable -->
+        <div id="dropdownMenu" class="dropdown-content">
+
+            <a class="seccion-menu" href="cuenta.html"><svg xmlns="http://www.w3.org/2000/svg" height="40px"
+                    viewBox="0 -960 960 960" width="40px" fill="#ffff">
+                    <path
+                        d="M480-480q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47ZM160-160v-112q0-34 17.5-62.5T224-378q62-31 126-46.5T480-440q66 0 130 15.5T736-378q29 15 46.5 43.5T800-272v112H160Zm80-80h480v-32q0-11-5.5-20T700-306q-54-27-109-40.5T480-360q-56 0-111 13.5T260-306q-9 5-14.5 14t-5.5 20v32Zm240-320q33 0 56.5-23.5T560-640q0-33-23.5-56.5T480-720q-33 0-56.5 23.5T400-640q0 33 23.5 56.5T480-560Zm0-80Zm0 400Z" />
+                </svg><span class="tit__seccion-menu">Cuenta</span></a>
+            <a class="seccion-menu" href="cuenta.html"><svg xmlns="http://www.w3.org/2000/svg" height="40px"
+                    viewBox="0 -960 960 960" width="40px" fill="#ffff">
+                    <path
+                        d="M480-80q-83.33 0-156.33-31.5-73-31.5-127.17-85.67-54.17-54.16-85.33-127.5Q80-398 80-481.33 80-565 111.17-637.5q31.16-72.5 85.33-126.67 54.17-54.16 127.17-85Q396.67-880 480-880q83.67 0 156.5 30.83 72.83 30.84 127 85Q817.67-710 848.83-637.5 880-565 880-481.33q0 83.33-31.17 156.66-31.16 73.34-85.33 127.5-54.17 54.17-127 85.67T480-80Zm0-66q32-36 54-80t36-101.33H390.67Q404-272.67 426-227.67T480-146Zm-91.33-13.33q-22.67-36.34-39.17-77.5Q333-278 322-327.33H182.67q35 64 82.83 103.33t123.17 64.67ZM572-160q66.67-21.33 119.5-64.33t85.83-103H638.67Q627-278.67 610.83-237.5 594.67-196.33 572-160ZM158-394h151.33q-3-24.67-3.83-45.5-.83-20.83-.83-41.83 0-23.67 1.16-43.17Q307-544 310-566.67H158q-6.33 22.67-8.83 41.84-2.5 19.16-2.5 43.5 0 24.33 2.5 44.5 2.5 20.16 8.83 42.83Zm219.33 0h206q3.67-27.33 4.84-46.83 1.16-19.5 1.16-40.5 0-20.34-1.16-39.17-1.17-18.83-4.84-46.17h-206q-3.66 27.34-4.83 46.17-1.17 18.83-1.17 39.17 0 21 1.17 40.5t4.83 46.83ZM650-394h152q6.33-22.67 8.83-42.83 2.5-20.17 2.5-44.5 0-24.34-2.5-43.5-2.5-19.17-8.83-41.84H650.67q3 30 4.16 48.84Q656-499 656-481.33q0 21.66-1.5 41.16-1.5 19.5-4.5 46.17Zm-12-239.33h139.33Q745.67-696 692.83-739q-52.83-43-121.5-61.67Q594-765 610.17-724.5 626.33-684 638-633.33Zm-247.33 0h180q-11.34-50-35-96-23.67-46-55.67-83.34-30 30-51 72.34-21 42.33-38.33 107Zm-208 0h140Q333-682 348.83-722.17 364.67-762.33 388-800q-68.67 18.67-120.5 61t-84.83 105.67Z" />
+                </svg><span class="tit__seccion-menu">Idioma</span></a>
+
+
+        </div>
+    </div>
+
+</header>
+<!--Body-->
+
+<body>
+    <!--Regresar-->
+    <a class="regresar" href="parejas.html"><svg class="regresar" xmlns="http://www.w3.org/2000/svg" height="40px"
+            viewBox="0 -960 960 960" width="40px" fill="#252525">
+            <path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z" />
+        </svg></a>
+
+    <!--Checks -->
+    <section class="checks">
+        <!--Título-->
+        <h1 class="titulo__seccion">Fin de semana</h1>
+
+        <!--Columna 1-->
+        <section id="columna1" class="columna">
+
+
+            <div class="cont__check">
+                <input class="caja azulF P-rojo" type="checkbox" name="" id="maratpeli">
+                <h2 class="nombre-de-check">Maratón de películas</h2>
+            </div>
+            <div class="cont__check">
+                <input class="caja azulF P-rojo" type="checkbox" name="" id="cocijuntos">
+                <h2 class="nombre-de-check">Cocinar juntos</h2>
+            </div>
+            <div class="cont__check">
+                <input class="caja azulF P-rojo" type="checkbox" name="" id="juegosmesa">
+                <h2 class="nombre-de-check">Noche de juegos de mesa</h2>
+            </div>
+
+            <div class="cont__check">
+                <input class="caja azulF P-rojo" type="checkbox" name="" id="spa">
+                <h2 class="nombre-de-check">Día de spa casero</h2>
+            </div>
+
+            <div class="cont__check">
+                <input class="caja azulF P-rojo" type="checkbox" name="" id="librjuntos">
+                <h2 class="nombre-de-check">Leer un libro juntos</h2>
+            </div>
+
+            <div class="cont__check">
+                <input class="caja azulF P-rojo" type="checkbox" name="" id="centatem">
+                <h2 class="nombre-de-check">Cena temática de algún país</h2>
+            </div>
+            <div class="cont__check">
+                <input class="caja azulF P-rojo" type="checkbox" name="" id="ejercjun">
+                <h2 class="nombre-de-check">Hacer ejercicio en pareja</h2>
+            </div>
+            <div class="cont__check">
+                <input class="caja azulF P-rojo" type="checkbox" name="" id="playlistjunt">
+                <h2 class="nombre-de-check">Crear una playlist juntos</h2>
+            </div>
+            <div class="cont__check">
+                <input class="caja azulF P-rojo" type="checkbox" name="" id="pintumanua">
+                <h2 class="nombre-de-check">Tarde de manuali- dades</h2>
+            </div>
+            <div class="cont__check">
+                <input class="caja azulF P-rojo" type="checkbox" name="" id="fotrecord">
+                <h2 class="nombre-de-check">Ver fotos y recordar momentos juntos</h2>
+            </div>
+            <div class="cont__check">
+                <input class="caja azulF P-rojo" type="checkbox" name="" id="postrgall">
+                <h2 class="nombre-de-check">Hornear galletas o postres </h2>
+            </div>
+            
+
+
+        </section>
+
+        <!--Columna 2-->
+        <section id="columna2" class="columna">
+            <div class="cont__check">
+                <input class="caja azulF P-rojo" type="checkbox" name="" id="cartamor">
+                <h2 class="nombre-de-check">Escribir cartas o mensajes de amor</h2>
+            </div>
+
+            <div class="cont__check">
+                <input class="caja azulF P-rojo" type="checkbox" name="" id="picnsal">
+                <h2 class="nombre-de-check">Organizar un picnic en la sala</h2>
+            </div>
+
+            <div class="cont__check">
+                <input class="caja azulF P-rojo" type="checkbox" name="" id="nuevojunt">
+                <h2 class="nombre-de-check">Aprender algo nuevo juntos</h2>
+            </div>
+
+            <div class="cont__check">
+                <input class="caja azulF P-rojo" type="checkbox" name="" id="albumfotos">
+                <h2 class="nombre-de-check">Crear un álbum de fotos</h2>
+            </div>
+
+            <div class="cont__check">
+                <input class="caja azulF P-rojo" type="checkbox" name="" id="sesfotos">
+                <h2 class="nombre-de-check">Sesión de fotos</h2>
+            </div>
+            <div class="cont__check">
+                <input class="caja azulF P-rojo" type="checkbox" name="" id="sueñmet">
+                <h2 class="nombre-de-check">Hacer una lista de sueños o metas</h2>
+            </div>
+            <div class="cont__check">
+                <input class="caja azulF P-rojo" type="checkbox" name="" id="romp">
+                <h2 class="nombre-de-check">Construir un rompecabezas</h2>
+            </div>
+            <div class="cont__check">
+                <input class="caja azulF P-rojo" type="checkbox" name="" id="huert">
+                <h2 class="nombre-de-check">Crear un huerto casero </h2>
+            </div>
+            <div class="cont__check">
+                <input class="caja azulF P-rojo" type="checkbox" name="" id="fogata">
+                <h2 class="nombre-de-check">Hacer una fogata casera </h2>
+            </div>
+
+            
+        </section>
+<img src="https://i.pinimg.com/originals/48/e9/b1/48e9b1a79602d6c8016c65042e668ace.png"
+                alt="" class="foto-floatR">
+    </section>
+
+</body>
+<!--Footer-->
+<footer></footer>
+<script src="js.js"></script>
+</html>

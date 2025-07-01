@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TO-DO Check</title>
+    <link rel="icon" href="imagenes/Logo-Obscuro.png">
+    <!--PLAY-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+
+    <!--GOTHIC A1-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+</head>
+<!--Header-->
+<header id="header">
+    <a href="index.html">
+        <img src="imagenes/logorect.png" alt="" class="logo">
+    </a>
+
+    
+
+    <div id="menuO" class="menu-container">
+        <!-- Ícono del menú de hamburguesa -->
+        <svg id="hamburguesa" onclick="toggleMenu()" xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960"
+            width="40px" fill="#252525" class="menu-icon">
+            <path d="M120-240v-66.67h720V-240H120Zm0-206.67v-66.66h720v66.66H120Zm0-206.66V-720h720v66.67H120Z" />
+        </svg>
+
+        <!-- Overlay oscuro -->
+        <div class="menu-overlay"></div>
+
+        <!-- Contenido del menú desplegable -->
+        <div id="dropdownMenu" class="dropdown-content">
+
+            <a class="seccion-menu" href="#maratones"><span class="tit__seccion-menu"> <li>Maratones</li> </span></a>
+
+            <a class="seccion-menu" href="#actores"><span class="tit__seccion-menu"><li>Actores</li></span></a>
+
+
+        </div>
+    </div>
+
+</header>
+<!--Body-->
+
+<body id="body">
+    <!--Regresar-->
+    <a class="regresar" href="index.html"><svg class="regresar" xmlns="http://www.w3.org/2000/svg"  viewBox="0 -960 960 960"
+            fill="#252525">
+            <path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z" />
+        </svg></a>
+
+    <!--Maratones-->
+    <section id="maratones" class="categorias">
+        <!--Título-->
+        <h1 class="titulo__seccion">Maratones</h1>
+
+        <a href="marvel.html">
+            <div id="peliculas" class="categoria">
+                <img loading="lazy" class="img__categoria"
+                    src="https://i.etsystatic.com/28050869/r/il/fed085/3551827159/il_fullxfull.3551827159_6r21.jpg"
+                    alt="">
+                <h1 class="titulo__categoria">Marvel</h1>
+            </div>
+        </a>
+
+        <a href="dc.html">
+            <div id="peliculas" class="categoria">
+                <img loading="lazy" class="img__categoria"
+                    src="https://m.media-amazon.com/images/I/61ZXy7dbhfL._AC_UF1000,1000_QL80_.jpg" alt="">
+                <h1 class="titulo__categoria">DC</h1>
+            </div>
+        </a>
+
+        <a href="disney.html">
+            <div id="peliculas" class="categoria">
+                <img loading="lazy" class="img__categoria"
+                    src="https://i.pinimg.com/originals/b0/5e/15/b05e15b6dca541539bab098a224a614b.png" alt="">
+                <h1 class="titulo__categoria">Disney</h1>
+            </div>
+        </a>
+
+        <a href="dreamworks.html">
+            <div id="peliculas" class="categoria">
+                <img loading="lazy" class="img__categoria"
+                    src="https://www.industriaanimacion.com/wp-content/uploads/2020/08/Dreamworks-.jpg" alt="">
+                <h1 class="titulo__categoria">Dreamworks</h1>
+            </div>
+        </a>
+
+        <a href="pixar.html">
+            <div id="peliculas" class="categoria">
+                <img loading="lazy" class="img__categoria"
+                    src="https://lacriaturacreativa.com/wp-content/uploads/2018/01/Logo_de_Pixar_con_sus_personajes.png"
+                    alt="">
+                <h1 class="titulo__categoria">Pixar</h1>
+            </div>
+        </a>
+
+        <a href="terror.html">
+            <div id="peliculas" class="categoria">
+                <img loading="lazy" class="img__categoria"
+                    src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/18951265778481.5affb13b88000.png"
+                    alt="">
+                <h1 class="titulo__categoria">Terror</h1>
+            </div>
+        </a>
+
+        <a href="romanticas.html">
+            <div id="peliculas" class="categoria">
+                <img loading="lazy" class="img__categoria"
+                    src="https://media.istockphoto.com/id/1410041828/es/vector/una-pel%C3%ADcula-de-video-que-graba-una-escena-de-un-amante-como-un-drama.jpg?s=612x612&w=0&k=20&c=522Ol2wIhBvpL4sekRjGG2RHE2SWQjv6EIwxIyoNpiI="
+                    alt="">
+                <h1 class="titulo__categoria">Romanticas</h1>
+            </div>
+        </a>
+
+        <a href="enseñanza.html">
+            <div id="peliculas" class="categoria">
+                <img loading="lazy" class="img__categoria"
+                    src="https://www.nueva-acropolis.es/images/jem/events/charla-filosofica-el-guerrero-pacifico-dmillman-5595531128.jpg"
+                    alt="">
+                <h1 class="titulo__categoria">Enseñanza</h1>
+            </div>
+        </a>
+        <a href="biograficas.html">
+            <div id="peliculas" class="categoria">
+                <img loading="lazy" class="img__categoria"
+                    src="https://rockcontent.com/es/wp-content/uploads/sites/3/2019/02/hambre-de-poder-1024x538.png.webp"
+                    alt="">
+                <h1 class="titulo__categoria">Biográficas</h1>
+            </div>
+        </a>
+    </section>
+
+    <!--Actores-->
+
+    <section id="actores" class="categorias">
+        <!--Título-->
+        <h1 id="actores" class="titulo__seccion">Actores</h1>
+
+        <a href="al-pacino.html">
+            <div id="peliculas" class="categoria">
+                <img loading="lazy" class="img__categoria"
+                    src="https://www.hola.com/horizon/43/eee7e2940faa-al-pacino-in-conversation-with-david-rubenstein.jpg"
+                    alt="">
+                <h1 class="titulo__categoria">Al Pacino</h1>
+            </div>
+        </a>
+
+        <a href="cillian-murphy.html">
+            <div id="peliculas" class="categoria">
+                <img loading="lazy" class="img__categoria"
+                    src="https://www.clacktv.cl/vtrcontent/media/2023/07/cillianmurphy.jpg" alt="">
+                <h1 class="titulo__categoria">Cillian Murphy</h1>
+            </div>
+        </a>
+        <a href="robert-de-niro.html">
+            <div id="peliculas" class="categoria">
+                <img loading="lazy" class="img__categoria"
+                    src="https://media.revistavanityfair.es/photos/66bf2e3921519e027a01c2b5/4:3/w_6324,h_4743,c_limit/1491990801" alt="">
+                <h1 class="titulo__categoria">Robert De Niro</h1>
+            </div>
+        </a>
+        <a href="leonardo-dicaprio.html">
+            <div id="peliculas" class="categoria">
+                <img loading="lazy" class="img__categoria"
+                    src="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2024/01/10/17049238031498.jpg" alt="">
+                <h1 class="titulo__categoria">Leonardo DiCaprio</h1>
+            </div>
+        </a>
+
+        <a href="#header">
+            <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 -960 960 960"  fill="#252525">
+                <path
+                    d="M440-320h80v-168l64 64 56-56-160-160-160 160 56 56 64-64v168Zm40 240q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+            </svg>
+        </a>
+       
+    </section>
+
+    
+</body>
+<!--Footer-->
+<footer></footer>
+<script src="js.js"></script>
+
+</html>
