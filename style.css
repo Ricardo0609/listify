@@ -201,12 +201,6 @@ header {
     gap: 10px;
     margin-top: 2vw;
 }
-.elim{
-color: var(--rojo);
-background-color: var(--blanco);
-border: none;
-font-size: 5vw;
-}
 
 /*caja*/
 .caja{
@@ -565,12 +559,7 @@ svg{
         gap: 5px;
         margin-top: 5vw;
     }
-.elim{
-color: var(--rojo);
-background-color: var(--blanco);
-border: none;
-font-size: 8vw;
-}
+
     /*caja*/
     .caja{
         width: 12vw;
